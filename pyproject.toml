@@ -1,0 +1,17 @@
+[project]
+name = "c2-w06-build2-student-pack"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "chaitanya", email = "chaitanyadokara@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+c2-w06-build2-student-pack = "c2_w06_build2_student_pack:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
